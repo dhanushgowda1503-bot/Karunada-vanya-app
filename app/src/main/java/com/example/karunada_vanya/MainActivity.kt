@@ -128,6 +128,14 @@ class MainActivity : ComponentActivity() {
                     )
 
                     Spacer(modifier = Modifier.height(20.dp))
+                    Text(
+                        text = "Wildlife Education & Alert App",
+                        fontSize = 16.sp,
+                        color = Color.Gray
+                    )
+
+                    Spacer(modifier = Modifier.height(10.dp))
+
 
                     Image(
                         painter = painterResource(id = R.drawable.tiger),
